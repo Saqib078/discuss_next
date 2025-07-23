@@ -23,11 +23,11 @@ const PostShowPage: React.FC<PostShowPageProps> = async ({ params }) => {
                 </Button>
             </Link>
             <Suspense fallback={<p>Loading....</p>}>
-                <PostShow postId={postId}/>
+                <PostShow postId={postId} />
             </Suspense>
             <div className='px-8'><p className='text-[16px] text-semibold'>Comment</p></div>
-            <CommentCreateForm postId={postId} startOpen/>
-            <CommentList postId={postId}/>
+            <CommentCreateForm postId={postId} startOpen />
+            <CommentList postId={postId} />
         </div>
     )
 }

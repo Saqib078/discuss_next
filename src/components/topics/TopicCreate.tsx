@@ -28,7 +28,7 @@ const TopicCreate = () => {
           <DialogHeader>
             <DialogTitle>Create a Topic</DialogTitle>
             <DialogDescription>
-              Write a new topic to start discussion. Click save when you're
+              Write a new topic to start discussion. Click save when you are
               done.
             </DialogDescription>
           </DialogHeader>
